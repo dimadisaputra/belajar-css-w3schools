@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.jumbotron{
+    /* background warna */
+    background-color: yellowgreen;
+
+    /* background image */
+    background-image: url("https://img.freepik.com/free-photo/businessman-pointing-his-presentation-futuristic-digital-screen_53876-102617.jpg?w=740&t=st=1675602360~exp=1675602960~hmac=efdf06dffacb59348aa26ccaf9b4d17a5240d4faa1e05d386a7f470b525fa7dc");
+    
+    /* background repeat */
+    background-repeat: no-repeat;
+
+    /* background position */
+    background-position: right top;
+
+    /* background attachment (scroll atau fixed) */
+    background-attachment: scroll;
+}
+
+h1, h2, .jumbotron {
+    padding: 12px;
+}
